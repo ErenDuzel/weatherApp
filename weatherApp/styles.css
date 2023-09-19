@@ -1,0 +1,24 @@
+body{
+    width: auto;
+    height: auto;
+    background: rgba(3, 48, 54, 0.452);
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+.container{
+    max-width: 400px;
+}
+.dinoimg{
+    max-height: 450px !important;
+    max-width: 450px !important;
+}
+.icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+.visual{
+    background: rgba(5, 64, 173, 0.336);
+}
