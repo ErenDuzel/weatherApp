@@ -56,3 +56,9 @@ cityForm.addEventListener('submit', e => {
     .catch(err => console.log(err));
 
 });
+
+if(localStorage.getItem('city')){
+    updateCity(localStorage.getItem('city'))
+    .then(date => updateUI(data))
+    .catch(err => console.log(err));
+}
